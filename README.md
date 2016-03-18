@@ -11,7 +11,7 @@ How to create a new sails app from this repository:
 # Reinstall all node modules
 - Open Node.js command prompt (windows) or the terminal (mac)
 - Enter into your projet's directory (windows: `cd \code\project_name` | mac: `cd ~/code/project_name`) 
-- Install node modules `npm install`
+- Reinstall node modules `npm install` (this might take a while)
 - Run the app `sails lift`
 - Open Chrome and navigate to localhost:1337 to see the app
  
