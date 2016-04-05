@@ -1,7 +1,7 @@
 $('#createThing').submit(function(e){
     e.preventDefault();
     $.ajax({
-        url:'/jThings',
+        url:'/jThings/create',
         type:'post',
         data:$(this).serialize(),
         success:function(){

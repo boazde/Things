@@ -9,7 +9,7 @@
         <div class="col-md-6 col-md-offset-3">
             <div class="list-group">
                 <% for (var i = 0; i < data.length; i++) { %>
-                    <a href="/jThings/<%=data[i].id%>" class="list-group-item"><%- data[i].name %></a>
+                    <a href="/jThings/<%=data[i].id%>" class="list-group-item"><%= data[i].name %></a>
                 <% } %>
             </div>
             <form id="createThing">
